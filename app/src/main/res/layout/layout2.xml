@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:rowCount="6"
+    android:columnCount="4"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layoutAlignment="center">
+
+    <TextView
+        android:width="350dp"
+        android:text="0"
+        android:textSize="30sp"
+        android:background="#e8e8e8"
+        android:gravity="fill"
+        android:layout_columnSpan="4"
+        android:layout_marginLeft="0dp"
+        android:paddingLeft="5dp"/>
+
+    <Button
+        android:insetLeft="4dp"
+        android:insetRight="4dp"
+        android:text="%" />
+    <Button android:text="CE"/>
+    <Button android:text="C"/>
+    <Button android:text="÷"/>
+    <Button android:text="7"/>
+    <Button android:text="8"/>
+    <Button android:text="9"/>
+    <Button android:text="×"/>
+    <Button android:text="4"/>
+    <Button android:text="5"/>
+    <Button android:text="6"/>
+    <Button android:text="-"/>
+    <Button android:text="1"/>
+    <Button android:text="2"/>
+    <Button android:text="3"/>
+    <Button android:text="+"/>
+    <Button android:text="0"/>
+    <Button android:text="."/>
+
+    <Button
+        android:layout_width="176dp"
+        android:layout_columnSpan="2"
+        android:gravity="fill"
+        android:text="="
+        android:textAlignment="center" />
+
+</GridLayout>
